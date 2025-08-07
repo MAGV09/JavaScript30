@@ -38,15 +38,20 @@
     
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
+// console.log(inventors.filter((item)=>item.year >1500&&item.year<1600));
 
     // Array.prototype.map()
     // 2. Give us an array of the inventors first and last names
+// console.log(inventors.map((item)=>`${item.first} ${item.last}`));
 
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
+// inventors.sort((a,b)=>a.year-b.year)
+// console.log(...inventors);
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live all together?
+// console.log(inventors.reduce((acc,item)=>acc+(item.passed-item.year),0 ));
 
     // 5. Sort the inventors by years lived
 
@@ -56,11 +61,13 @@
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+ 
+ 
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
-    const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
-
+ 
+     
   </script>
 </body>
 </html>
